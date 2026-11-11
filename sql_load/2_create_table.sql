@@ -1,3 +1,5 @@
+-- Create table under titanic_db database
+
 CREATE TABLE passengers (
     p_id         INT PRIMARY KEY,
     is_survived  BOOLEAN NOT NULL,

@@ -1,3 +1,5 @@
+-- Load data into the passengers table
+
 COPY passengers (p_id, is_survived, p_class, name, surname, title, sex, age, sib_sp, par_ch, family_size, ticket, fare, cabin, embarked)
 FROM 'C:/Users/HOME/OneDrive/Documents/titanic_transformed.csv'
 WITH (FORMAT csv, HEADER true, NULL '');

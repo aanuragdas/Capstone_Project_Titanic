@@ -51,7 +51,9 @@ Using **Column From Examples** and conditional transformations in **Excel Power 
 
 #### Step 3: New Column Created  `family_size`
 Created a calculated column `family_size` by summing sibling/spouse count and parent/child count, plus the passenger themselves:
-$$\text{family\_size} = \text{sib\_sp} + \text{par\_ch} + 1$$
+
+            family_size = sib_sp + par_ch +1
+
 *(Note: A `family_size` of 1 indicates the passenger was traveling alone.)*
 
 ---

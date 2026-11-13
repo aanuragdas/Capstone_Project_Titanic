@@ -94,11 +94,11 @@ Created a calculated column `family_size` by summing sibling/spouse count and pa
 
 After analyzing the Titanic dataset, I used **SQL** to investigate several key questions regarding passenger survival patterns.
 
-### [Question 1](project_sql\question_1.sql)- What is the total passenger count and the percentage of men vs. women?
+### [Question 1](project_sql/question_1.sql)- What is the total passenger count and the percentage of men vs. women?
 
 The dataset contains a total of **891** passenger records, comprising **577 males (64.8%)** and **314 females (35.2%)**.
 
-### [Question 2](project_sql\question_2.sql)- What is the percentage of passengers by embarkation port and ticket class?
+### [Question 2](project_sql/question_2.sql)- What is the percentage of passengers by embarkation port and ticket class?
 
 - Southampton had the highest passenger volume, with over half (54.6%) traveling in third class.
 - Cherbourg saw the highest proportion of luxury travel, with 50.6% of its passengers in first class.
@@ -106,7 +106,7 @@ The dataset contains a total of **891** passenger records, comprising **577 male
 
 <img src="images\Que2-Ans.png" width="600">
 
-### [Question 3](project_sql\question_3.sql)- What is the statistical spread of individual passenger ticket prices?
+### [Question 3](project_sql/question_3.sql)- What is the statistical spread of individual passenger ticket prices?
 
 - Minimum: 0.00
 - 25th Percentile (Q1): 7.77
@@ -116,27 +116,27 @@ The dataset contains a total of **891** passenger records, comprising **577 male
 
 A total of 15 passengers traveled with a ticket price of 0.00, likely holding complimentary tickets or crew passes.
 
-### [Question 4](project_sql\question_4.sql)- How does the median passenger age vary across ticket class and gender?
+### [Question 4](project_sql/question_4.sql)- How does the median passenger age vary across ticket class and gender?
 
 The median age of both male and female passengers was highest in first class and lowest in third class, with second-class passengers falling in between.
 
 <img src="images\Que4-Ans.png" width="600">
 
-### [Question 5](project_sql\question_5.sql)- How many passengers survived, and what percentage were male and female?
+### [Question 5](project_sql/question_5.sql)- How many passengers survived, and what percentage were male and female?
 
 <img src="images\Que5-Viz.png" width="600">
 
-### [Question 6](project_sql\question_6.sql)- What is the survival rate by ticket class?
+### [Question 6](project_sql/question_6.sql)- What is the survival rate by ticket class?
 
 <img src="images\Que6-Viz.png" width="600">
 
-### [Question 7](project_sql\question_7.sql)- What is the survival rate by class and gender?
+### [Question 7](project_sql/question_7.sql)- What is the survival rate by class and gender?
 
 Female passengers traveling in first and second class had the highest survival rates at 96.8% and 92.1% respectively, but this rate dropped sharply to 50.0% for female passengers in third class. Among male passengers, first-class travelers had a 36.9% survival rate, which fell steeply in second class (15.7%) and third class (13.5%).
 
 <img src="images\Que7-Viz.png" width="600">
 
-### [Question 8](project_sql\question_8.sql)- What was the survival rate by port of embarkation?
+### [Question 8](project_sql/question_8.sql)- What was the survival rate by port of embarkation?
 
 <img src="images\Que8-Viz.png" width="600">
 
@@ -151,11 +151,11 @@ Some age groups have few passengers: Toddlers (44), Children (29), Teens (44), a
 
 <img src="images\Que9-Viz.png" width="600">
 
-### [Question 10](project_sql\question_10.sql)- What was the survival rate across different family sizes?
+### [Question 10](project_sql/question_10.sql)- What was the survival rate across different family sizes?
 
 <img src="images\Que10-Viz.png" width="600">
 
-### [Question 11](project_sql\question_11.sql)- What percentage of passengers survived in each fare bracket?
+### [Question 11](project_sql/question_11.sql)- What percentage of passengers survived in each fare bracket?
 
 Passengers were split into four equal-sized groups (quartiles) by the fare they paid, from Q1 (lowest fares) to Q4 (highest fares). Survival was lowest in the two cheapest groups (about 25%) and highest in the top group (64.4%).
 
